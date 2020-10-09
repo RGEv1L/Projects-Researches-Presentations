@@ -1,0 +1,143 @@
+body{
+	margin:0px;
+	padding:0px;
+    background-color:white; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+.header{
+	width:1000px;
+	height:150px;
+	margin:0px auto;
+}
+#headlogo{
+	width:225px;
+	margin-left:38.63%;
+	margin-right:38.63%;
+	float:left;
+}
+#navigation-section{
+	width:1000px;
+	height:50px;
+	margin:0px auto;
+	margin-bottom:0px;
+}
+#navigation-bar{
+	width:1000px;
+	height:55px;
+	margin:0px auto;
+	
+}
+#event-section{
+	width:1200px;
+	height:1200px;
+	margin:0px auto;
+}
+.home-div{
+	padding-left:165px;
+	padding-right:0px;
+	float:left;
+}
+.aboutus-div{
+	float:left;
+}
+.products-div{
+	float:left;
+}
+.event-div{
+	float:left;
+}
+.contactus-div{
+	float:left;
+	padding-right:130px;
+}
+
+
+#a{
+	font-weight:bold;
+	width:100px;
+	display:inline-block;
+	text-align:center;
+	text-decoration:None;
+	padding:14px 0;
+	margin:2px 17px 0px 17px;
+	background-color:black;
+	color:#57cf17;
+}
+h1{
+    padding: 0px;
+    margin:0px;
+    width:150px;
+    border-bottom:5px solid #57cf17;
+    padding: 8px 0px;
+}
+p{
+    margin:0px;
+    padding:0px;
+    font-weight:bold;
+    margin-left:55px;
+}
+
+
+
+.line{
+	width:100px;
+	height:3px;
+	padding-top:-4px;
+	background-color:#57cf17;
+	transform:translate(450px);
+	transition:all 3s;
+}
+#event-section{
+    
+    width:1300px;
+    height:800px; 
+}
+#first-rowproduct{
+    height:400px;
+    display: flex;
+    justify-content: space-between;
+}
+#pic1-div{
+    background-color: burlywood;
+    width:220px;
+    height:350px;
+    margin-top: 5px;
+    margin-right:3px;
+    float: left;
+}
+#pic2-div{
+    background-color: coral;
+    width:220px;
+    height:350px;
+    margin-top: 5px;
+    float: left;
+    
+}
+#pic3-div{
+    background-color: olive;
+    width:220px;
+    height:350px;
+    margin-top: 5px;
+    float: left;
+    transition:all 0.2s;
+}
+#pic4-div{
+    background-color: yellow;
+    width:220px;
+    height:350px;
+    margin-top: 5px;
+    margin-right:3px; 
+}
+#second-rowproduct{
+    height:400px;
+    display: flex;
+    justify-content: space-between;
+}
+#pic3-div:hover{
+    background-color: chocolate;
+    font-size:17px;
+}
+
+ 

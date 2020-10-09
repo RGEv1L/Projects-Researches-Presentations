@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1541018036 source:/home/AKhan/OneDrive/Courses/DStruct & Algo/LinkedList/LinkedList/main.cpp
+	<iostream>
+	"Node.h"
+	"ListNode.h"
+
+1541018108 source:/home/AKhan/OneDrive/Courses/DStruct & Algo/LinkedList/LinkedList/src/ListNode.cpp
+	"ListNode.h"
+	<iostream>
+
+1540929183 /home/AKhan/OneDrive/Courses/DStruct & Algo/LinkedList/LinkedList/include/ListNode.h
+	"Node.h"
+
+1540927757 /home/AKhan/OneDrive/Courses/DStruct & Algo/LinkedList/LinkedList/include/Node.h
+	<string>
+
+1540934812 source:/home/AKhan/OneDrive/Courses/DStruct & Algo/LinkedList/LinkedList/src/Node.cpp
+	"Node.h"
+
+1544608338 source:c:\users\rg-pc\onedrive\courses\dstruct & algo\linkedlist\linkedlist\main.cpp
+	<iostream>
+	"Node.h"
+	"ListNode.h"
+
+1540934812 source:c:\users\rg-pc\onedrive\courses\dstruct & algo\linkedlist\linkedlist\src\node.cpp
+	"Node.h"
+
+1544610119 source:c:\users\rg-pc\onedrive\courses\dstruct & algo\linkedlist\linkedlist\src\listnode.cpp
+	"ListNode.h"
+	<iostream>
+

@@ -1,0 +1,168 @@
+@import " https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+body{
+	margin:0px;
+	padding:0px;
+    background-color:#f9f9f9; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    
+}
+.header{
+	width:1000px;
+	height:150px;
+	margin:0px auto;
+}
+#headlogo{
+	width:225px;
+	margin-left:38.63%;
+	margin-right:38.63%;
+	float:left;
+}
+#navigation-section{
+	width:1000px;
+	height:50px;
+	margin:0px auto;
+	margin-bottom:0px;
+}
+#navigation-bar{
+	width:1000px;
+	height:55px;
+	margin:0px auto;
+	
+}
+#event-section{
+	width:1200px;
+	height:1200px;
+	margin:0px auto;
+}
+.home-div{
+	padding-left:165px;
+	padding-right:0px;
+	float:left;
+}
+.aboutus-div{
+	float:left;
+}
+.products-div{
+	float:left;
+}
+.event-div{
+	float:left;
+}
+.contactus-div{
+	float:left;
+	padding-right:130px;
+}
+.fa-user {
+    color: black;
+    font-size: 20px;
+	padding-top:10px;
+}
+.fa-email {
+    color: black;
+    font-size: 20px;
+	padding-top:10px;
+}
+
+a{
+	font-weight:bold;
+	width:100px;
+	display:inline-block;
+	text-align:center;
+	text-decoration:None;
+	padding:14px 0;
+	margin:2px 17px 0px 17px;
+	background-color:black;
+	color:#57cf17;
+}
+h1{
+    padding: 0px;
+    margin:0px;
+    width:150px;
+    border-bottom:5px solid #57cf17;
+    padding: 8px 0px;
+}
+#email-input{
+    border:none;
+    width: 250px;
+    padding-left:5px;
+    font-size: 20px;
+    background:none;
+}
+#user-input{
+     border:none;
+    width: 250px;
+    padding-left:5px;
+    font-size: 20px;
+    background:none;
+}
+
+
+.line{
+	width:100px;
+	height:3px;
+	padding-top:-4px;
+	background-color:#57cf17;
+	transform:translate(718px);
+	transition:all 3s;
+}
+#contact-box{
+    margin:0px; 
+    margin-top:30%;
+    margin-left:50%;
+    float:left;
+    transform: translate(-50%,-50%);
+}
+#info-box{
+    width:300px;
+    height:35px;
+    margin:15px 0px;
+    font-size:8px;
+    border-bottom:1px solid #57cf17;
+}
+#info-box2{
+    width:300px;
+    height:35px;
+    margin:15px 0px;
+    font-size:8px;
+    border-bottom:1px solid #57cf17;
+}
+#send-btn{
+    width:300px;
+    height:50px;
+    padding-top: 5px;
+    padding: 3px 0px;
+    margin:8px 0px;
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+    border:1px solid #57cf17;
+    border-radius: 30px;
+    transition:all 1s;
+}
+#ex{
+	margin-bottom:5px;
+	margin-left: 15em;
+    color:black;
+	margin-top:7px;
+	width:700px;
+	height:500px;
+	float:left;
+}
+#message:hover{
+    border:3px solid #57cf17;
+}
+#message{
+     border:1px solid #57cf17;
+    border-radius:5px;
+    background-color:white;
+    color: black;
+}
+#send-btn:hover{
+   
+    background-color: #57cf17;
+    font-weight: bold;
+}
+#info-box:hover{
+    border-bottom:3px solid #57cf17;
+}

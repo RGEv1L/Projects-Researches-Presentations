@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe8850ec-7fb7-4ed0-bc7d-e38fc5fc2632" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Pycharm" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UsXQAOMHOTucUz24FKJVTy2T0i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Py/Pycharm/DIP/dip.py" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/DIP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dip (2)">
+    <configuration name="dip (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dip (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Py/Pycharm/DIP" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Py/Pycharm/DIP/dip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dip" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DIP/dip.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="updated (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DIP/updated.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="updated (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Pycharm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/updated.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dip (2)" />
+        <item itemvalue="Python.updated (2)" />
+        <item itemvalue="Python.dip (1)" />
+        <item itemvalue="Python.dip" />
+        <item itemvalue="Python.updated (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe8850ec-7fb7-4ed0-bc7d-e38fc5fc2632" name="Default Changelist" comment="" />
+      <created>1576146257082</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576146257082</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="435" y="200" width="800" height="684" key="#Inspections" timestamp="1576151923836">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="435" y="200" width="800" height="684" key="#Inspections/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151923836" />
+    <state x="514" y="154" width="641" height="776" key="#updated" timestamp="1576151623445">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="514" y="154" width="641" height="776" key="#updated/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151623445" />
+    <state x="1642" y="265" width="424" height="521" key="FileChooserDialogImpl" timestamp="1579029934537">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state x="618" y="285" width="424" height="521" key="FileChooserDialogImpl/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576187279262" />
+    <state x="1642" y="265" key="FileChooserDialogImpl/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579029934537" />
+    <state width="1657" height="328" key="GridCell.Tab.0.bottom" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="238" key="GridCell.Tab.0.bottom/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576187288938" />
+    <state width="1657" height="328" key="GridCell.Tab.0.bottom/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1897" height="181" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.27.1680.1023@1680.0.1920.1080" timestamp="1578678874336" />
+    <state width="1657" height="238" key="GridCell.Tab.0.bottom/2704.0.1920.1080/1024.0.1680.1050/0.27.1024.741@1024.0.1680.1050" timestamp="1577445797024" />
+    <state width="1337" height="161" key="GridCell.Tab.0.bottom/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@0.27.1360.741" timestamp="1577645035891" />
+    <state width="1657" height="169" key="GridCell.Tab.0.bottom/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@1360.0.1680.1050" timestamp="1577994137284" />
+    <state width="1657" height="328" key="GridCell.Tab.0.center" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="238" key="GridCell.Tab.0.center/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576187288938" />
+    <state width="1657" height="328" key="GridCell.Tab.0.center/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1897" height="181" key="GridCell.Tab.0.center/1680.0.1920.1080/0.27.1680.1023@1680.0.1920.1080" timestamp="1578678874336" />
+    <state width="1657" height="238" key="GridCell.Tab.0.center/2704.0.1920.1080/1024.0.1680.1050/0.27.1024.741@1024.0.1680.1050" timestamp="1577445797024" />
+    <state width="1337" height="161" key="GridCell.Tab.0.center/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@0.27.1360.741" timestamp="1577645035891" />
+    <state width="1657" height="169" key="GridCell.Tab.0.center/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@1360.0.1680.1050" timestamp="1577994137284" />
+    <state width="1657" height="328" key="GridCell.Tab.0.left" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="238" key="GridCell.Tab.0.left/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576187288938" />
+    <state width="1657" height="328" key="GridCell.Tab.0.left/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1897" height="181" key="GridCell.Tab.0.left/1680.0.1920.1080/0.27.1680.1023@1680.0.1920.1080" timestamp="1578678874335" />
+    <state width="1657" height="238" key="GridCell.Tab.0.left/2704.0.1920.1080/1024.0.1680.1050/0.27.1024.741@1024.0.1680.1050" timestamp="1577445797024" />
+    <state width="1337" height="161" key="GridCell.Tab.0.left/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@0.27.1360.741" timestamp="1577645035890" />
+    <state width="1657" height="169" key="GridCell.Tab.0.left/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@1360.0.1680.1050" timestamp="1577994137284" />
+    <state width="1657" height="328" key="GridCell.Tab.0.right" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="238" key="GridCell.Tab.0.right/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576187288938" />
+    <state width="1657" height="328" key="GridCell.Tab.0.right/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1897" height="181" key="GridCell.Tab.0.right/1680.0.1920.1080/0.27.1680.1023@1680.0.1920.1080" timestamp="1578678874336" />
+    <state width="1657" height="238" key="GridCell.Tab.0.right/2704.0.1920.1080/1024.0.1680.1050/0.27.1024.741@1024.0.1680.1050" timestamp="1577445797024" />
+    <state width="1337" height="161" key="GridCell.Tab.0.right/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@0.27.1360.741" timestamp="1577645035891" />
+    <state width="1657" height="169" key="GridCell.Tab.0.right/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@1360.0.1680.1050" timestamp="1577994137284" />
+    <state width="1657" height="328" key="GridCell.Tab.1.bottom" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.bottom/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151944538" />
+    <state width="1657" height="328" key="GridCell.Tab.1.bottom/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1657" height="328" key="GridCell.Tab.1.center" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.center/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151944538" />
+    <state width="1657" height="328" key="GridCell.Tab.1.center/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1657" height="328" key="GridCell.Tab.1.left" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.left/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151944538" />
+    <state width="1657" height="328" key="GridCell.Tab.1.left/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state width="1657" height="328" key="GridCell.Tab.1.right" timestamp="1579032571071">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state width="1657" height="328" key="GridCell.Tab.1.right/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151944538" />
+    <state width="1657" height="328" key="GridCell.Tab.1.right/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579032571071" />
+    <state x="1525" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1579029872835">
+      <screen x="1024" y="0" width="1680" height="1050" />
+    </state>
+    <state x="500" y="366" key="com.intellij.ide.util.TipDialog/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576186242863" />
+    <state x="1525" y="349" key="com.intellij.ide.util.TipDialog/1024.0.1680.1050/2704.0.1920.1080/0.27.1024.741@1024.0.1680.1050" timestamp="1579029872835" />
+    <state x="2252" y="359" key="com.intellij.ide.util.TipDialog/1680.0.1920.1080/0.27.1680.1023@1680.0.1920.1080" timestamp="1578678489552" />
+    <state x="405" y="273" key="com.intellij.ide.util.TipDialog/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@0.27.1360.741" timestamp="1577631808949" />
+    <state x="1861" y="349" key="com.intellij.ide.util.TipDialog/3040.0.1920.1080/1360.0.1680.1050/0.27.1360.741@1360.0.1680.1050" timestamp="1577993388109" />
+    <state x="289" y="185" width="1092" height="714" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576184899026">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="289" y="185" width="1092" height="714" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576184899026" />
+    <state x="394" y="277" width="882" height="529" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1576151936199">
+      <screen x="0" y="27" width="1680" height="1023" />
+    </state>
+    <state x="394" y="277" width="882" height="529" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.27.1680.1023/1680.0.1920.1080@0.27.1680.1023" timestamp="1576151936199" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DIP/updated.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
