@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+CAUTION: Do not modify this file unless you know what you are doing.
+         Unexpected results may occur if the code is changed deliberately.
+-->
+<dbmodel pgmodeler-ver="0.9.1" last-position="0,0" last-zoom="0.9"
+	 default-owner="postgres">
+<role name="db_admin"
+      superuser="true"
+      createdb="true"
+      replication="true"
+      createrole="true"
+      inherit="true"
+      login="true">
+</role>
+
+<role name="db_cal"
+      login="true">
+</role>
+
+<role name="db_cred"
+      login="true">
+</role>
+
+<role name="db_prov"
+      login="true">
+</role>
+
+<database name="infrastructure" encoding="BIG5" is-template="false" allow-conns="true">
+	<role name="db_admin"/>
+	<tablespace name="pg_default"/>
+</database>
+
+<schema name="public" rect-visible="true" fill-color="#e1e1e1" sql-disabled="true">
+</schema>
+
+<schema name="Infrastructure Spinner" rect-visible="true" fill-color="#e1e1e1">
+	<role name="db_admin"/>
+</schema>
+
+<table name="compute_servers">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_admin"/>
+	<tablespace name="pg_default"/>
+	<position x="501.105" y="114.772"/>
+	<column name="hostname" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="t_cores" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="t_cores_committed" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="f_cores" not-null="true">
+		<type name="smallint" length="0"/>
+	</column>
+	<column name="ip_addr" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="compute_servers_pk" type="pk-constr" table="&quot;Infrastructure Spinner&quot;.compute_servers">
+		<columns names="hostname" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="memory_servers">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_admin"/>
+	<tablespace name="pg_default"/>
+	<position x="827.105" y="117.772"/>
+	<column name="hostname" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="t_memory" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="t_memory_committed" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="f_memory" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="ip_addr" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="memory_servers_pk" type="pk-constr" table="&quot;Infrastructure Spinner&quot;.memory_servers">
+		<columns names="hostname" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="storage_servers">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_admin"/>
+	<tablespace name="pg_default"/>
+	<position x="1163.11" y="117.328"/>
+	<column name="hostname" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="t_storage" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="t_storage_committed" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="f_storage" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="ip_addr" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="storage_servers_pk" type="pk-constr" table="&quot;Infrastructure Spinner&quot;.storage_servers">
+		<columns names="hostname" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="credentials">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_cal"/>
+	<position x="493.725" y="365.854"/>
+	<column name="username" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="password" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="credentials_pk" type="pk-constr" table="&quot;Infrastructure Spinner&quot;.credentials">
+		<columns names="username" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<sequence name="resource_provisioned_PID_seq"
+	 start="1" increment="1"
+	 min-value="-2147483648" max-value="2147483647"
+	 cache="1" cycle="false">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+</sequence>
+
+<sequence name="pricing_BID_seq"
+	 start="1" increment="1"
+	 min-value="-2147483648" max-value="2147483647"
+	 cache="1" cycle="false">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+</sequence>
+
+<sequence name="resource_provisioned_PID_seq1"
+	 start="1" increment="1"
+	 min-value="-2147483648" max-value="2147483647"
+	 cache="1" cycle="false">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+</sequence>
+
+<table name="resource_provisioned">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_prov"/>
+	<tablespace name="pg_default"/>
+	<position x="495.438" y="586.328"/>
+	<column name="PID" not-null="true" sequence="&quot;Infrastructure Spinner&quot;.&quot;resource_provisioned_PID_seq1&quot;">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="c_nodes" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="s_nodes" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="m_nodes" not-null="true">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="status" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<constraint name="resource_provisioned_pk" type="pk-constr" table="&quot;Infrastructure Spinner&quot;.resource_provisioned">
+		<columns names="PID" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<table name="pricing">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_cal"/>
+	<tablespace name="pg_default"/>
+	<position x="1396.5" y="600.157"/>
+	<column name="cost">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="c_nodes_time">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="s_nodes_t">
+		<type name="integer" length="0"/>
+	</column>
+	<column name="m_nodes_t">
+		<type name="integer" length="0"/>
+	</column>
+</table>
+
+<table name="vm_stats">
+	<schema name="&quot;Infrastructure Spinner&quot;"/>
+	<role name="db_admin"/>
+	<tablespace name="pg_default"/>
+	<position x="991.111" y="386.667"/>
+	<column name="vmid" not-null="true">
+		<type name="text" length="0"/>
+	</column>
+	<column name="type" not-null="true">
+		<type name="char" length="0"/>
+	</column>
+	<column name="ip_addr" not-null="true">
+		<type name="inet" length="0"/>
+	</column>
+	<column name="time">
+		<type name="integer" length="0"/>
+	</column>
+	<constraint name="vm_stats_pk" type="pk-constr" table="&quot;Infrastructure Spinner&quot;.vm_stats">
+		<columns names="vmid" ref-type="src-columns"/>
+	</constraint>
+</table>
+
+<relationship name="pricing_has_one_resource_provisioned" type="rel11"
+	 src-col-pattern="{sc}_{st}"
+	 pk-pattern="{dt}_pk" uq-pattern="{dt}_uq"
+	 src-fk-pattern="{st}_fk"
+	 custom-color="#84d9c3"
+	 src-table="&quot;Infrastructure Spinner&quot;.resource_provisioned"
+	 dst-table="&quot;Infrastructure Spinner&quot;.pricing"
+	 src-required="true" dst-required="false"/>
+
+<constraint name="username" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="CASCADE" del-action="CASCADE" ref-table="&quot;Infrastructure Spinner&quot;.credentials" table="&quot;Infrastructure Spinner&quot;.resource_provisioned">
+	<columns names="PID" ref-type="src-columns"/>
+	<columns names="username" ref-type="dst-columns"/>
+</constraint>
+
+<constraint name="PID" type="fk-constr" comparison-type="MATCH FULL"
+	 upd-action="CASCADE" del-action="CASCADE" ref-table="&quot;Infrastructure Spinner&quot;.resource_provisioned" table="&quot;Infrastructure Spinner&quot;.vm_stats">
+	<columns names="vmid" ref-type="src-columns"/>
+	<columns names="PID" ref-type="dst-columns"/>
+</constraint>
+
+<relationship name="rel_resource_provisioned_credentials" type="relfk"
+	 src-table="&quot;Infrastructure Spinner&quot;.resource_provisioned"
+	 dst-table="&quot;Infrastructure Spinner&quot;.credentials" reference-fk="username"
+	 src-required="false" dst-required="false"/>
+
+<relationship name="rel_vm_stats_resource_provisioned" type="relfk"
+	 src-table="&quot;Infrastructure Spinner&quot;.vm_stats"
+	 dst-table="&quot;Infrastructure Spinner&quot;.resource_provisioned" reference-fk="PID"
+	 src-required="false" dst-required="false"/>
+
+</dbmodel>
